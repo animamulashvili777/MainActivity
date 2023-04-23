@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send message"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <EditText
+        android:id="@+id/recipient_number_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="enter recipient's number"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="179dp"
+        android:layout_height="97dp"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <EditText
+        android:id="@+id/message_edittext"
+        android:layout_width="228dp"
+        android:layout_height="131dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter your text here"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
